@@ -32,14 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Compression.Base, Version=17.2460.0.36, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Compression.Base.17.2.0.36\lib\net46\Syncfusion.Compression.Base.dll</HintPath>
+    <Reference Include="Syncfusion.Compression.Base, Version=17.2460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Compression.Base.17.2.0.39\lib\net46\Syncfusion.Compression.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Licensing, Version=17.2460.0.36, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Licensing.17.2.0.36\lib\net46\Syncfusion.Licensing.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.XlsIO.Base, Version=17.2450.0.36, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.XlsIO.AspNet.Mvc5.17.2.0.36\lib\net45\Syncfusion.XlsIO.Base.dll</HintPath>
+    <Reference Include="Syncfusion.XlsIO.Base, Version=17.2450.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.XlsIO.AspNet.Mvc5.17.2.0.39\lib\net45\Syncfusion.XlsIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,10 +50,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportRow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Template.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
